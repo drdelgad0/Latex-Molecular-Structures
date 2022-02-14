@@ -1,0 +1,23 @@
+\documentclass[border=10pt]{standalone}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{chemfig}
+\usepackage[version=3]{mhchem}
+\usepackage{tikz}  
+\usetikzlibrary{calc,intersections}
+\usepackage{pgfpages}
+
+
+\begin{document}
+
+
+\large
+\setchemfig{atom sep=2.5em}
+\schemestart 
+\chemfig{[:30]O=*6(-=*6(---(<[::+0]H)*6(-(<:[::+240]H)*5(---(<:[::+240]H)(-(-[::+60])=[::-60]O)-)-(<[::+0])---)-(<:[::+120]H)-)-(<[::+0])---)}
+\schemestop
+
+
+
+  
+\end{document}
