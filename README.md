@@ -1,1 +1,1 @@
-# Latex code for the chemical structures of different drugs
+# Latex code for the molecular structures of different drugs
