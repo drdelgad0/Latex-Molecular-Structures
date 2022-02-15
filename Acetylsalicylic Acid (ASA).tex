@@ -1,0 +1,27 @@
+\documentclass[border=10pt]{standalone}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{chemfig}
+\usepackage[version=3]{mhchem}
+\usepackage{tikz}  
+\usetikzlibrary{calc,intersections}
+\usepackage{pgfpages}
+
+
+\begin{document}
+
+
+\large
+\setchemfig{atom sep=2.5em}
+\schemestart 
+\chemfig{*6(=-=(-O(-[:330]([:270]=O)-))-(-([:30]-OH)([:150]=O))=-)}
+\schemestop
+
+
+
+  
+\end{document}
+
+
+%{N}{H}-[:30](=[:90]O)-[:330](*6(-N(-)-S([:235]=O)([:305]=O)-(*6(=-=-=-))--(-OH)=))}
+%*6((-Cl)=-(-NH(-[:30]([:90]=O)([:330]-NH([:30]-(*6(=-=(-Cl)-=-))))))=-=(-Cl)-)
