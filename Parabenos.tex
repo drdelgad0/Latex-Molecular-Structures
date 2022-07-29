@@ -1,0 +1,18 @@
+\documentclass[border=10pt]{standalone}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{chemfig}
+\usepackage[version=3]{mhchem}
+\usepackage{tikz}  
+\usetikzlibrary{calc,intersections}
+\usepackage{pgfpages}
+
+
+\begin{document}
+
+\large
+\setchemfig{atom sep=2.5em}
+\schemestart 
+\chemfig{*6((- {OH})=-=(-([:90]=O)([:330]-R_1))-=-)}
+\schemestop
+\end{document}
