@@ -1,0 +1,22 @@
+\documentclass[border=10pt]{standalone}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{chemfig}
+\usepackage[version=3]{mhchem}
+\usepackage{tikz}  
+\usetikzlibrary{calc,intersections}
+\usepackage{pgfpages}
+
+
+\begin{document}
+
+\large
+\setchemfig{atom sep=2.5em}
+\schemestart 
+\chemfig{*6((-HO)-=(-=[:30]-(=[:270]O)-[:30]O-(<[:270]-*6(-=-(-HO)=(-HO)-=))-[:30](=[:90]O)-OH)-=-(-HO)=)}
+\schemestop
+
+
+
+  
+\end{document}
